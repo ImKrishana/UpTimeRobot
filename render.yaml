@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: uptime-robot
+    runtime: python
+    region: frankfurt
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python alive.py

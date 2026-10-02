@@ -1,0 +1,17 @@
+You can create any .txt file in the root directory and add
+multiple app base URLs to it, with one URL per line.
+
+Example:
+
+https://your-app.koyeb.app
+https://your-app.onrender.com
+https://yourdomain.com
+
+The application automatically reads all .txt files in the root
+directory and pings every valid URL starting with http:// or https://.
+
+If you don't want to create a .txt file, you can directly add
+your app base URL(s) to the ENDPOINTS list in alive.py.
+
+Both methods are supported, and URLs from both sources will be
+ping together.

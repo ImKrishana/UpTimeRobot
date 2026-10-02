@@ -1,0 +1,11 @@
+{
+  "name": "UpTimeRobot",
+  "description": "Lightweight uptime and keep-alive service for Render and Koyeb apps.",
+  "repository": "https://github.com/ftsatyam/UpTimeRobot",
+  "stack": "heroku-24",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
